@@ -117,7 +117,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 CX_Tagline                  : 'Open Source JavaScript Client-Side Ether Wallet Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'Free, open-source, client-side tool for easily &amp; securely interacting with the Ethereum blockchain. ',
+FOOTER_1                    : 'Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.',
 FOOTER_1b                   : 'Nhà Phát Triển: ',
 FOOTER_2                    : 'Quyên Góp & Ủng Hộ Vào "Quỹ Phát Triển" Từ Bạn Là Một Hành Động Đáng Trân Trọng: ',
 FOOTER_3                    : 'Client-side wallet generation by ',
@@ -133,6 +133,8 @@ sidebar_TransHistory        : 'Lịch Sử Giao Dịch ',
 sidebar_donation            : 'MyEtherWallet là một ứng dụng miễn phí được xây dựng trên mã nguồn mở nhằm bảo vệ quyền riêng tư và sự bảo mật của người sử dụng. các khoản quyên góp mà chúng tôi nhận được sẽ giúp chúng tôi có cơ hội dành nhiều thơi gian hơn cho việc lắng nghe những phản hồi từ người sử dụng nhằm tạo ra những ứng dụng mới nhằm đáp ứng những mong muốn từ người sử dụng. Chúng tôi hiện tại là hai cá nhân đang cố gắng làm cho thế giới ngày một tốt hơn. Hãy cùng chung giúp chúng tôi ',
 sidebar_donate              : 'Quyên Góp ',
 sidebar_thanks              : 'Xin Chân Thành Cảm Ơn!!! ',
+sidebar_DisplayOnTrezor     : 'Display address on TREZOR',
+sidebar_DisplayOnLedger     : 'Display address on Ledger',
 
 /* Decrypt Panel */
 decrypt_Access              : 'Làm thế nào đễ truy cập vào ví của bạn? ',
@@ -293,14 +295,14 @@ MSG_verify                  : 'Verify Message ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',
 ADD_Trezor_select           : 'This is a TREZOR seed ',
-x_Ledger                    : 'Ledger Nano S ',
-ADD_Ledger_1                : 'Kết Nối Với Ledger Nano S Của Bạn ',
+x_Ledger                    : 'Ledger Wallet ',
+ADD_Ledger_1                : 'Kết Nối Với Ledger Wallet Của Bạn ',
 ADD_Ledger_2                : 'Mở Lên Ứng Dụng Của Ethereum (Hoặc một ứng dụng của Hợp Đồng) ',
 ADD_Ledger_3                : 'Xác nhận lại phần Hổ Trợ dành cho Trình Duyệt đã được kích hoạt trong mục Cài Đặt ',
 ADD_Ledger_4                : 'Nếu mục Hổ Trợ dành cho Trình duyệt không tìm thấy trong mục Cài Đặt, Xác nhận lại bạn đã có [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) hay chưa ',
 ADD_Ledger_0a               : 'Hảy mở lại trang MyEtherWallet trên một kết nối có tính bảo mật (SSL) ',
 ADD_Ledger_0b               : 'Sử dụng [Chrome](https://www.google.com/chrome/browser/desktop/) hoặc [Opera](https://www.opera.com/) Để mở lại trang MyEtherWallet ',
-ADD_Ledger_scan             : 'Kết nối với Ledger Nano S ',
+ADD_Ledger_scan             : 'Kết nối với Ledger Wallet ',
 
 /* Deploy Contracts */
 DEP_generate                : 'Tạo Bytecode ',
@@ -459,7 +461,7 @@ HELP_2a_Desc_6              : 'Keep in mind, you must prevent loss of the keys a
 
 HELP_2b_Title               : '2b) Làm thế nào dễ bảo mật Ví / offline / lưu trữ lạnh cùng với MyEtherWallet? ',
 HELP_2b_Desc_1              : 'Đến trang github của chúng tôi: [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
-HELP_2b_Desc_2              : 'Chọn vào ô `dist-vX.X.X.X.zip`. ',
+HELP_2b_Desc_2              : 'Chọn vào ô `etherwallet-vX.X.X.X.zip`. ',
 HELP_2b_Desc_3              : 'Chuyển tiếp tập tin zip đi đến máy tính airgapped. ',
 HELP_2b_Desc_4              : 'Giải nén tập tin Zip và nhấn kép chuột vào tập tin `index.html`. ',
 HELP_2b_Desc_5              : 'Khởi tạo một Ví cá nhân mới cùng với một mật khẩu mạnh. ',

@@ -133,6 +133,8 @@ sidebar_TransHistory        : 'Tranzakció Történet ',
 sidebar_donation            : 'A MyEtherWallet egy szabad, nyílt forrású szolgáltatás az adatod védelmének és a biztonságodnak szentelve. Minél több adomány érkezik, annál több időt tudunk fordítani új funkciók létrehozására, a visszajelzéseidre és olyan szolgáltatást nyújtani, amilyet szeretnél. Mindössze két ember, akik megpróbálnak változtatni a világon. Segítesz nekünk? ',
 sidebar_donate              : 'Adományozok ',
 sidebar_thanks              : 'KÖSZÖNJÜK!!! ',
+sidebar_DisplayOnTrezor     : 'Display address on TREZOR',
+sidebar_DisplayOnLedger     : 'Display address on Ledger',
 
 /* Decrypt Panel */
 decrypt_Access              : 'Hogyan szeretnéd elérni a tárcádat? ',
@@ -327,13 +329,13 @@ MSG_info2                   : 'Include your nickname and where you use the nickn
 MSG_info3                   : 'Include a specific reason for the message so it cannot be reused for a different purpose. ',
 
 /* Hardware wallets */
-x_Ledger                    : 'Ledger Nano S ',
-ADD_Ledger_scan             : 'Csatlakozás a Ledger Nano S-hez ',
-ADD_Ledger_1                : 'Csatlakoztasd a Ledger Nano S-et ',
+x_Ledger                    : 'Ledger Wallet ',
+ADD_Ledger_scan             : 'Csatlakozás a Ledger Wallet-hez ',
+ADD_Ledger_1                : 'Csatlakoztasd a Ledger Wallet-et ',
 ADD_Ledger_2                : 'Nyisd meg az Ethereum applikációt (vagy egy kontraktus applikációt) ',
 ADD_Ledger_3                : 'Ellenőrizd, hogy a beállításokban engedélyezve van a Böngésző Támogatás (Browser Support) ',
 ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
-ADD_Ledger_0a               : 'Re-open MyEtherWallet on a secure (SSL) connection ',
+ADD_Ledger_0a               : 'You must access MyEtherWallet via a secure (SSL / HTTPS) connection to connect. ',
 ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 WARN_Send_Link              : 'You arrived via a link that has the address, value, gas, data fields, or transaction type (send mode) filled in for you. You can change any information before sending. Unlock your wallet to get started. ',
 x_Trezor                    : 'TREZOR ',
@@ -457,7 +459,7 @@ HELP_2a_Desc_6              : 'Figyel arra is, hogy olyankor is legyen másolato
 
 HELP_2b_Title               : '2b) Hogyan tudom biztonságosan/offline/hidegen használni a MyEtherWallet-et? ',
 HELP_2b_Desc_1              : 'Menj a github oldalunkra: [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
-HELP_2b_Desc_2              : 'Kattints a `dist-vX.X.X.X.zip`. ',
+HELP_2b_Desc_2              : 'Kattints a `etherwallet-vX.X.X.X.zip`. ',
 HELP_2b_Desc_3              : 'Másold a letöltött zip fájlt egy airgap-elt számítógépre. ',
 HELP_2b_Desc_4              : 'Csomagold ki, és indítsd el az "index.html" fájlt. ',
 HELP_2b_Desc_5              : 'Generálj egy tárcát egy erős jelszóval. ',

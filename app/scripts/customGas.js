@@ -13,6 +13,21 @@
 
 module.exports = [
 {
+
+  // Social (SCL)
+  to:         '0x582e3d8dcd41f586fbcc6559f16476d20b2a3b95',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'Social (SCL) ICO/Crowdsale - ico.nexus.social'
+},
+{
+  // Stox Token Sale
+  to:         '0x40349A89114BB34d4E82e5Bf9AE6B2ac3c78b00a',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'Stox Token Sale'
+},
+{
   // DCORP
   to:         '0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8',
   gasLimit:   21000,
@@ -20,11 +35,11 @@ module.exports = [
   msg:        'Thank you for your donation! TO THE MOON! 🌝'
 },
 {
-  // DCORP
-  to:         '0xD42433A8a0A1CEB73c8ff4e432463e2ee109039d',
-  gasLimit:   100000,
+  // District0x
+  to:         '0xF8094e15c897518B5Ac5287d7070cA5850eFc6ff',
+  gasLimit:   200000,
   data:       '',
-  msg:        'DCORP. Ends June 30, 2017.'
+  msg:        'district0x. WEBSITE: contribution.district0x.io STARTS: Tue, 18 Jul 2017 08:00:00 REMEMBER: Use gas price of 50 GWEI (look in header) ENS: district0x.eth'
 },
 {
   // BattleDrome
@@ -46,6 +61,13 @@ module.exports = [
   gasLimit:   200000,
   data:       '',
   msg:        'Adchain. Starts June 26, 2017.'
+},
+{
+  // LookRev
+  to:         '0x8fa1EaD5d8d774b27d288711abE4d4258224ae26',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'LookRev ICO address - lookrev.com'
 },
 {
   // OmiseGo
@@ -101,7 +123,21 @@ module.exports = [
   to:         '0x08FF699987510D299Eca5cfE258B19d7F4d53ae9',
   gasLimit:   200000,
   data:       '',
-  msg:        'SGelder ICO starts 07th of August 2017'
+  msg:        'The above address was preICO-adress valid til 23rd of July 2017! Greets from Soeren Gelder'
+},
+  {
+  // SoerenGelderCom
+  to:         '0xA64AD5dA94137327F0895AC8C3A10924af73400d',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'SGelderGER (symbol: GELD) coin ICO starts 07th of August 2017'
+},
+  {
+  // BlockCAT Token Sale
+  to:         '0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8',
+  gasLimit:   200000,
+  data:       '0xb4427263',
+  msg:        'The BlockCAT Token Sale (CAT) starts July 15th, 2017 on Ethereum block number 4027470.'
 },
 {
   // NVC
@@ -109,6 +145,27 @@ module.exports = [
   gasLimit:   200000,
   data:       '',
   msg:        'NVC Fund'
+},
+{
+  // fake coindash
+  to:         '0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48',
+  gasLimit:   -1,
+  data:       '',
+  msg:        'fake coindash do not send pleaseeeeeeeee!'
+},
+{
+  // maybe fake coindash??
+  to:         '0x7da6955457b72fdd0e80709d704520ff85d79e39',
+  gasLimit:   -1,
+  data:       '',
+  msg:        'This may be a fake address promoted by phishers. go research first please.'
+},
+{
+  // Ohni
+  to:         '0x2a8a7afa955d8616e2e60e454e5a9c6b6c0a60fc',
+  gasLimit:   200000,
+  data:       '',
+  msg:        'OHNI ICO. Restoration of our communities!'
 }
 ]
 

@@ -1,4 +1,5 @@
 'use strict';
+require('./localStoragePolyfill');
 var IS_CX = false;
 if (typeof chrome != 'undefined') IS_CX = chrome.windows === undefined ? false : true;
 var angular                  = require('angular');
@@ -28,6 +29,8 @@ var browser                  = require('detect-browser');
 window.browser               = browser;
 var Wallet                   = require('./myetherwallet');
 window.Wallet                = Wallet;
+var Web3Wallet               = require('./web3Wallet');
+window.Web3Wallet            = Web3Wallet;
 var Token                    = require('./tokenlib');
 window.Token                 = Token;
 var globalFuncs              = require('./globalFuncs');

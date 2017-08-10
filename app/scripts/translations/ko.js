@@ -133,6 +133,8 @@ sidebar_TransHistory        : '트랜잭션 내역 ',
 sidebar_donation            : 'MyEtherWallet은 개인정보보호와 보안을 위한 무료 오픈 서비스입니다. 기부를 많이 받을수록 우리는 새로운 기능과 다양한 의견을 반영하여 사용자의 희망 사항을 위한 개발 시간을 늘리는 것이 가능해질 수 있습니다. 우리는 단 두명이 세상을 바꾸려 하고 있습니다. 도와주시겠습니까? ',
 sidebar_donate              : '기부 ',
 sidebar_thanks              : '감사합니다!!! ',
+sidebar_DisplayOnTrezor     : 'Display address on TREZOR',
+sidebar_DisplayOnLedger     : 'Display address on Ledger',
 
 /* Decrypt Panel */
 decrypt_Access              : '지갑 액세스 방법 선택 ',
@@ -146,14 +148,14 @@ MNEM_more                   : '나머지 주소 ',
 MNEM_prev                   : '이전 주소 ',
 
 /* Hardware wallets */
-x_Ledger                    : 'Ledger Nano S ',
-ADD_Ledger_1                : '사용자의 Ledger Nano S를 연결해주세요 ',
+x_Ledger                    : 'Ledger Wallet ',
+ADD_Ledger_1                : '사용자의 Ledger Wallet를 연결해주세요 ',
 ADD_Ledger_2                : '이더리움 어플리케이션을 실행해주세요 (또는 컨트랙트 어플리케이션)  ',
 ADD_Ledger_3                : 'Browser Support가 활성화된 상태인지 확인해주세요 ',
 ADD_Ledger_4                : '설정에서 Browser Support를 확인할 수 없으면, Ledger [Firmware 1.2] (https://www.ledgerwallet.com/apps/manager) 버전이 설치되어 있는지 확인해주세요. ',
 ADD_Ledger_0a               : 'MyEtherWallet을 보안 연결(SSL)로 다시 연결해주세요. ',
 ADD_Ledger_0b               : 'MyEtherWallet을 [Chrome](https://www.google.com/chrome/browser/desktop/) 또는 [Opera](https://www.opera.com/) 브라우저로 다시 열어주세요. ',
-ADD_Ledger_scan             : 'Ledger Nano S 에 연결하기 ',
+ADD_Ledger_scan             : 'Ledger Wallet 에 연결하기 ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'TREZOR 에 연결하기 ',
 
@@ -449,7 +451,7 @@ HELP_2a_Desc_6              : '하드 디스크, USB, 종이의 손상을 방지
 
 HELP_2b_Title               : '2b) 어떻게 하면 MyEtherWallet을 이용해 안전하게 오프라인, 콜드 스토리지로 자산을 보관할 수 있나요?  ',
 HELP_2b_Desc_1              : '다음을 참고 해주세요. [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
-HELP_2b_Desc_2              : '"dist-vX.X.X.X.zip" 파일을 클릭합니다. ',
+HELP_2b_Desc_2              : '"etherwallet-vX.X.X.X.zip" 파일을 클릭합니다. ',
 HELP_2b_Desc_3              : 'zip 파일을 인터넷이 연결되지 않은 컴퓨터로 옮깁니다. ',
 HELP_2b_Desc_4              : '압축을 푼 후, ‘index.html’ 을 더블 클릭합니다. ',
 HELP_2b_Desc_5              : '강력한 비밀번호와 함께 지갑을 생성합니다.  ',

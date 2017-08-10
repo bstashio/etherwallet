@@ -136,6 +136,8 @@ sidebar_TransHistory        : 'Histórico de Transações ',
 sidebar_donation            : 'MyEtherWallet é grátis, um serviço de fonte aberta dedicado a sua privacidade e segurança. Quanto mais doações nós recebermos, mais podemos gastar criando novidade, ouvindo seu feedback, e entregando o que você deseja. Somos apenas duas pessoas tentando mudar o mundo. Ajude-nos? ',
 sidebar_donate              : 'De ',
 sidebar_thanks              : 'OBRIGADO!!! ',
+sidebar_DisplayOnTrezor     : 'Display address on TREZOR',
+sidebar_DisplayOnLedger     : 'Display address on Ledger',
 
 /* Decrypt Panel */
 decrypt_Access              : 'Como você gostaria de acessar sua carteira? ',
@@ -461,7 +463,7 @@ HELP_2a_Desc_6              : 'Keep in mind, you must prevent loss of the keys a
 
 HELP_2b_Title               : '2b) How do I safely / offline / cold storage with MyEtherWallet? ',
 HELP_2b_Desc_1              : 'Go to [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
-HELP_2b_Desc_2              : 'Click on `dist-vX.X.X.X.zip`. ',
+HELP_2b_Desc_2              : 'Click on `etherwallet-vX.X.X.X.zip`. ',
 HELP_2b_Desc_3              : 'Move zip to an airgapped computer. ',
 HELP_2b_Desc_4              : 'Unzip it and double-click `index.html`. ',
 HELP_2b_Desc_5              : 'Generate a wallet with a strong password. ',
